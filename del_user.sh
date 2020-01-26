@@ -21,7 +21,7 @@ read_input() {
 
 
 if [ ! "$#" -eq 1 ]; then
-    echo "Error: problem with parameters."
+    echo "Error: problem with parameters.."
     exit 1
 fi
  

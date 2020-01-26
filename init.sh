@@ -18,7 +18,7 @@ do
     sleep .05
 done
 if [ -d "./$user" ]; then
- echo "Error: User $1 already exists"
+ echo "Error: User $1 already exists!"
  rmdir "$lock_dir" 2>/dev/null
  exit 2
 fi

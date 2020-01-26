@@ -5,7 +5,7 @@ lock_dir="lock_dir"
 check_user() {
     if [ ! -d "$1" ]; then
         if [ ! -f "$1" ]; then
-            echo "Error: User $1 does not exist"
+            echo "Error: User $1 does not exist!"
 	    rmdir "$lock_dir">/dev/null
             exit 2
 	else
